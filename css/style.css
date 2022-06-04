@@ -809,12 +809,16 @@ h1, h2, h3, h4, h5, h6 {
   }
   .left__block {
     margin-left: -319px;
+    margin-top: 0;
   }
   .burger {
     display: block;
   }
   .left__block-close {
     display: block;
+  }
+  .left__block-image {
+    margin-top: 50px;
   }
 }
 
