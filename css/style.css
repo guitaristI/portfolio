@@ -428,10 +428,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .central__block-about {
+  position: relative;
   background-color: var(--block-color);
   padding: 50px;
   padding-top: 93px;
   padding-left: 60px;
+}
+
+.central__block-about img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 445px;
 }
 
 .central__block-about-title {
@@ -448,7 +456,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .central__block-about-subtitle {
-  max-width: 714px;
+  max-width: 424px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -473,6 +481,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .central__block-about-btn:hover {
   background: #c18c10d2;
+}
+
+.central__block-img {
+  max-width: 100px;
 }
 
 .projects__title {
@@ -752,6 +764,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .projects__text-1 {
     bottom: 5%;
+  }
+  .central__block-about img {
+    display: none;
   }
 }
 

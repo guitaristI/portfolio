@@ -265,10 +265,17 @@ h1,h2,h3,h4,h5,h6{font-weight: inherit;font-size: inherit;}
 			flex-basis: 68%;
 		}
 		&__block-about{
+			position: relative;
 			background-color: var(--block-color);
 			padding: 50px;
 			padding-top: 93px;
 			padding-left: 60px;
+			img{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				max-width: 445px;
+			}
 		}
 
 		&__block-about-title {
@@ -284,7 +291,7 @@ h1,h2,h3,h4,h5,h6{font-weight: inherit;font-size: inherit;}
 		}
 
 		&__block-about-subtitle {
-			max-width: 714px;
+			max-width: 424px;
 			font-weight: 400;
 			font-size: 16px;
 			line-height: 24px;
@@ -306,6 +313,10 @@ h1,h2,h3,h4,h5,h6{font-weight: inherit;font-size: inherit;}
 			&:hover{
 				background: #c18c10d2;
 			}
+		}
+		&__block-img{
+			max-width: 100px;
+			
 		}
 }
 
@@ -573,6 +584,9 @@ h1,h2,h3,h4,h5,h6{font-weight: inherit;font-size: inherit;}
 	}
 	.projects__text-1{
 		bottom: 5%;
+	}
+	.central__block-about img{
+		display: none;
 	}
 	
 }
